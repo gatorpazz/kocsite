@@ -2,17 +2,33 @@
 
 body
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  background: url('/images/crucifix.jpg') center/cover
+  display: flex
+  min-height: 100vh
+  flex-direction: column
 a
   color: #00B7FF
-header
-  background: black;
-  height: 50px;
-ul
-  padding: 0;
-  list-style: none;
-  margin: 0;
-  color: white;
-  float: right;
-  li
-    display: inline-block;
+header, footer
+  background: black
+  height: 50px
+main
+  flex: 1
+  color: white
+footer
+  color: white
+  small
+    float: right;
     padding: 15px;
+ul
+  padding: 0
+  list-style: none
+  margin: 0
+  color: white
+  float: right
+  li
+    display: inline-block
+    padding: 15px
+    a
+      padding: 15px
+      color: white
+      text-decoration: none

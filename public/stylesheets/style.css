@@ -200,13 +200,29 @@ template {
 }
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url("/images/crucifix.jpg") center/cover;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 a {
   color: #00b7ff;
 }
-header {
+header,
+footer {
   background: #000;
   height: 50px;
+}
+main {
+  flex: 1;
+  color: #fff;
+}
+footer {
+  color: #fff;
+}
+footer small {
+  float: right;
+  padding: 15px;
 }
 ul {
   padding: 0;
@@ -217,5 +233,10 @@ ul {
 }
 ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 15px;
+}
+ul li a {
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
 }
