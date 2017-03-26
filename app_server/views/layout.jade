@@ -5,7 +5,9 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     header
-      nav
+      nav.container
+        a(href="/")
+          img(src="/images/kofclogo.png")
         ul
           li 
             a(href="/") Home
@@ -17,7 +19,7 @@ html
             a(href="/futureEvents") Future Events
           li
             a(href="/join") Join
-    main
+    main.container
       block content
     footer
-      small &copy; Knights of Columbus 2016
+      small &copy; Knights of Columbus 2017
