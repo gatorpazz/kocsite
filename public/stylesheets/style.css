@@ -230,6 +230,9 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
+h1 {
+  text-align: center;
+}
 a {
   color: #00b7ff;
 }
@@ -245,8 +248,10 @@ main {
 footer {
   color: #fff;
 }
-footer small {
-  float: right;
+footer p {
+  text-align: right;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 15px;
 }
 .pictures {
