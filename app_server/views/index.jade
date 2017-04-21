@@ -3,7 +3,16 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-  p Knight of the month for March was awarded to Brother Javier Martinez. Brother Javier has hit the ground running since joining the council in Dec 2016.  Brother Javier regularly helps with the monthly pancake breakfast, participated in the Tootsie Roll Drive, attended the Shroud of Turin presentation, and does an excellent job as a lead with the That Man Is You bible study.  It is great to have you on the team Brother Javier.  Keep up the good work.
-  p Family of the month for March was awarded to Dr. Gill and Bonnie LaVoy. Dr. Gil & Bonnie Lavoie participated in the March for Life in St. Augustine, fed the homeless at the Christian Service Center, and attended the play at the Dr. Phillips Center.  They also made a generous donation to Laps for Life and participated in the event. Dr. Gil made a presentation on the Shroud of Turin at the February social and donated the proceeds from book and DVD sales to the council.  Bonnie also supports the monthly homemade baked goods sale.  Wouldn’t it be wonderful to have them here full-time?
+  section.memberDues
+    h2 Pay your membership dues through PayPal:
+    include duesButton.html
+  figure.ofTheMonth
+    img(src="images/knightOfMonth.jpg")
+    figcaption
+      p Knight of the month for March was awarded to Brother Javier Martinez. Brother Javier has hit the ground running since joining the council in Dec 2016.  Brother Javier regularly helps with the monthly pancake breakfast, participated in the Tootsie Roll Drive, attended the Shroud of Turin presentation, and does an excellent job as a lead with the That Man Is You bible study.  It is great to have you on the team Brother Javier.  Keep up the good work.
+  figure.ofTheMonth
+    img(src="images/familyOfMonth.jpg")
+    figcaption
+      p Family of the month for March was awarded to Dr. Gill and Bonnie LaVoy. Dr. Gil & Bonnie Lavoie participated in the March for Life in St. Augustine, fed the homeless at the Christian Service Center, and attended the play at the Dr. Phillips Center.  They also made a generous donation to Laps for Life and participated in the event. Dr. Gil made a presentation on the Shroud of Turin at the February social and donated the proceeds from book and DVD sales to the council.  Bonnie also supports the monthly homemade baked goods sale.  Wouldn’t it be wonderful to have them here full-time?
   p Read the latest newsletter&nbsp;
     a(href="/newsletters/apr2017.pdf") here

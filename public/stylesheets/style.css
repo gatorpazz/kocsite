@@ -244,6 +244,7 @@ footer {
 main {
   flex: 1;
   color: #fff;
+  background-color: rgba(0,0,0,0.3);
 }
 footer {
   color: #fff;
@@ -270,4 +271,12 @@ footer p {
 }
 .pictures figure p:nth-child(2) {
   font-size: 16px;
+}
+.ofTheMonth {
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+.ofTheMonth img {
+  width: 300px;
+  margin: 0 auto;
 }
