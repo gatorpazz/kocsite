@@ -3,78 +3,9 @@ extends layout
 block content
   h1= title
   .pictures
-    figure
-      img(src="images/officers/chaplain.jpg")
-      figcaption
-        p Chaplain
-        p Fr. Martin Nguyen
-    figure
-      img(src="images/officers/grandknight.jpg")
-      figcaption
-        p Grand Knight
-        p George Olson
-    figure
-      img(src="images/officers/deputygrandknight.jpg")
-      figcaption
-        p Deputy Grand Knight
-        p Patrick Schmidt
-    figure
-      img(src="images/officers/chancellor.jpg")
-      figcaption
-        p Chancellor
-        p Steve Gertel
-    figure
-      img(src="images/officers/recorder.jpg")
-      figcaption
-        p Recorder
-        p Michael Pascuzzi
-    figure
-      img(src="images/officers/financialsecretary.jpg")
-      figcaption
-        p Financial Secretary
-        p Yebrail Brennan
-    figure
-      img(src="images/officers/treasurer.jpg")
-      figcaption
-        p Treasurer
-        p Patrick Hayes
-    figure
-      img(src="images/officers/lecturer.png")
-      figcaption
-        p Lecturer
-        p John Rice
-    figure
-      img(src="images/officers/advocate.jpg")
-      figcaption
-        p Advocate
-        p Kraig Johnson
-    figure
-      img(src="images/officers/warden.jpg")
-      figcaption
-        p Warden
-        p Jim Fields
-    figure
-      img(src="images/officers/insideGuard.jpg")
-      figcaption
-        p Inside Guard
-        p Ralph Briscoe
-    figure
-      img(src="images/officers/outsideGuard.jpg")
-      figcaption
-        p Outside Guard
-        p Gary Gagnon
-    figure
-      img(src="images/officers/oneYearTrustee.jpg")
-      figcaption
-        p One Year Trustee
-        p Rick Brennan
-    figure
-      img(src="images/officers/twoYearTrustee.jpg")
-      figcaption
-        p Two Year Trustee
-        p Bill Simpson
-    figure
-      img(src="images/officers/threeYearTrustee.jpg")
-      figcaption
-        p Three Year Trustee
-        p Ed Gold
+    each officer in officers
+      figure
+        img(src="images/officers/#{officer.picture}")
+        figcaption
+          p= officer.title
+          p= officer.name
