@@ -7,15 +7,15 @@ module.exports.officers = function(req, res){
       picture: 'chaplain.jpg'
     }, {
       title: 'Grand Knight',
-      name: 'George Olson',
+      name: 'Patrick Schmidt',
       picture: 'grandknight.jpg'
     }, {
       title: 'Deputy Grand Knight',
-      name: 'Patrick Schmidt',
+      name: 'Steve Gertel',
       picture: 'deputygrandknight.jpg'
     }, {
       title: 'Chancellor',
-      name: 'Steve Gertel',
+      name: 'John Rice',
       picture: 'chancellor.jpg'
     }, {
       title: 'Recorder',
@@ -31,7 +31,7 @@ module.exports.officers = function(req, res){
       picture: 'treasurer.jpg'
     }, {
       title: 'Lecturer',
-      name: 'John Rice',
+      name: 'Gary Gagnon',
       picture: 'lecturer.png'
     }, {
       title: 'Advocate',
@@ -39,27 +39,27 @@ module.exports.officers = function(req, res){
       picture: 'advocate.jpg'
     }, {
       title: 'Warden',
-      name: 'Jim Fields',
+      name: 'Ralph Briscoe',
       picture: 'warden.jpg'
     }, {
       title: 'Inside Guard',
-      name: 'Ralph Briscoe',
+      name: 'Michael Schwartz',
       picture: 'insideGuard.jpg'
     }, {
       title: 'Outside Guard',
-      name: 'Gary Gagnon',
+      name: 'Raul Rodriguez',
       picture: 'outsideGuard.jpg'
     }, {
       title: 'One Year Trustee',
-      name: 'Rick Brennan',
+      name: 'George Olson',
       picture: 'oneYearTrustee.jpg'
     }, {
       title: 'Two Year Trustee',
-      name: 'Bill Simpson',
+      name: 'Rick Brennan',
       picture: 'twoYearTrustee.jpg'
     }, {
       title: 'Three Year Trustee',
-      name: 'Ed Gold',
+      name: 'Bill Simpson',
       picture: 'threeYearTrustee.jpg'
     }, ]
   });
