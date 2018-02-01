@@ -7,7 +7,7 @@ module.exports.officers = function(req, res){
       picture: 'chaplain.jpg'
     }, {
       title: 'Grand Knight',
-      name: 'Patrick Schmidt',
+      name: 'George Olson',
       picture: 'grandknight.jpg'
     }, {
       title: 'Deputy Grand Knight',
@@ -51,7 +51,7 @@ module.exports.officers = function(req, res){
       picture: 'outsideGuard.jpg'
     }, {
       title: 'One Year Trustee',
-      name: 'George Olson',
+      name: 'Patrick Schmidt',
       picture: 'oneYearTrustee.jpg'
     }, {
       title: 'Two Year Trustee',
